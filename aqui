@@ -1,0 +1,7 @@
+   let it = /* aqui voce busca um elemento do DOM*/
+   
+   console.log(it.parentNode.childNodes.item(1).textContent)
+   console.log(it.parentNode.childNodes.item(3).textContent)
+   console.log(it.parentNode.childNodes.item(5).textContent)
+   console.log('iiiiiiiiiiiiiiiiiiiiii')
+   console.log(it.parentNode.parentNode.childNodes.item(1).childNodes.item(1).getAttribute('src'))
